@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[closing browser]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-12-05T10:15:44 IST" name="Suite" finished-at="2022-12-05T10:16:33 IST" duration-ms="48970">
+    <groups>
+    </groups>
+    <test started-at="2022-12-05T10:15:44 IST" name="Test" finished-at="2022-12-05T10:16:33 IST" duration-ms="48970">
+      <class name="ServiceBase_Testing.ECommerce_Domain_TestClasses.Testclass1">
+        <test-method is-config="true" signature="configureBrowser_Openapplication()[pri:0, instance:ServiceBase_Testing.ECommerce_Domain_TestClasses.Testclass1@145f66e3]" started-at="2022-12-05T10:15:44 IST" name="configureBrowser_Openapplication" finished-at="2022-12-05T10:16:17 IST" duration-ms="32875" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configureBrowser_Openapplication -->
+        <test-method is-config="true" signature="login()[pri:0, instance:ServiceBase_Testing.ECommerce_Domain_TestClasses.Testclass1@145f66e3]" started-at="2022-12-05T10:16:17 IST" name="login" finished-at="2022-12-05T10:16:23 IST" duration-ms="6451" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="userValidation()[pri:0, instance:ServiceBase_Testing.ECommerce_Domain_TestClasses.Testclass1@145f66e3]" started-at="2022-12-05T10:16:23 IST" name="userValidation" finished-at="2022-12-05T10:16:29 IST" duration-ms="5436" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userValidation -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:ServiceBase_Testing.ECommerce_Domain_TestClasses.Testclass1@145f66e3]" started-at="2022-12-05T10:16:29 IST" name="logout" finished-at="2022-12-05T10:16:32 IST" duration-ms="3621" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="closingapplication()[pri:0, instance:ServiceBase_Testing.ECommerce_Domain_TestClasses.Testclass1@145f66e3]" started-at="2022-12-05T10:16:32 IST" name="closingapplication" finished-at="2022-12-05T10:16:33 IST" duration-ms="442" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closingapplication -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:ServiceBase_Testing.ECommerce_Domain_TestClasses.Testclass1@145f66e3]" started-at="2022-12-05T10:16:33 IST" name="closeBrowser" finished-at="2022-12-05T10:16:33 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[closing browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- ServiceBase_Testing.ECommerce_Domain_TestClasses.Testclass1 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
