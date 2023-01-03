@@ -33,17 +33,18 @@ public class TestClassClarks extends BaseClassClarks
 	@BeforeMethod
 	public void Shopping() throws InterruptedException
 	{
-		chp.NewArrivals(driver);
+		chp.NewArrivals(driver); // we use action class methods
 		Thread.sleep(2000);
-		cmp.SortByPrice();
+		cmp.SortByPrice(); 
 		Thread.sleep(1000);
-		cmp.PriceRange();
+		cmp.PriceRange();  // we use filter here
 		Thread.sleep(2000);
 	}
 	
 	@Test
 	public void Vlaidatesortfilterss() throws IOException
 	{
+	       // we here validate the shoting by price from high to low
 		cmp.validatesortbyprice(UtilityClassClarks.Fetchdata(0, 0));
 	}
 
