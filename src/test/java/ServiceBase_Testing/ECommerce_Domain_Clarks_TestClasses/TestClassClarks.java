@@ -38,6 +38,7 @@ public class TestClassClarks extends BaseClassClarks
 		cmp.SortByPrice();
 		Thread.sleep(1000);
 		cmp.PriceRange();
+		Thread.sleep(2000);
 	}
 	
 	@Test
@@ -55,9 +56,9 @@ public class TestClassClarks extends BaseClassClarks
 	@AfterMethod
 	public void closeBrowser() throws InterruptedException
 	{
-		Thread.sleep(2000);
+		Thread.sleep(1000);
 		driver.close();
-		Thread.sleep(2000);
+		Thread.sleep(1000);
 	}
 	@AfterClass
 	public void Report()
