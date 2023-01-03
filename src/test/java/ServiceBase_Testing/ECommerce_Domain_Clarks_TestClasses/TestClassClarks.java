@@ -36,7 +36,7 @@ public class TestClassClarks extends BaseClassClarks
 		chp.NewArrivals(driver);
 		Thread.sleep(2000);
 		cmp.SortByPrice();
-		Thread.sleep(2000);
+		Thread.sleep(1000);
 		cmp.PriceRange();
 	}
 	
@@ -62,7 +62,7 @@ public class TestClassClarks extends BaseClassClarks
 	@AfterClass
 	public void Report()
 	{
-		Reporter.log("Clarks WebPage is closed");
+		Reporter.log("Clarks web base Application is closed");
 	}
 	
 
