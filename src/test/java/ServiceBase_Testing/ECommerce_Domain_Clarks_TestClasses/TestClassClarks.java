@@ -51,6 +51,7 @@ public class TestClassClarks extends BaseClassClarks
 	@Test
 	public void ValidatedPriceFilterss()
 	{
+		// we vlidate price filter under 2000 rs
 		cmp.validatePriceRenge();
 	}
 	
@@ -58,6 +59,7 @@ public class TestClassClarks extends BaseClassClarks
 	public void closeBrowser() throws InterruptedException
 	{
 		Thread.sleep(1000);
+		// we close the webpage
 		driver.close();
 		Thread.sleep(1000);
 	}
