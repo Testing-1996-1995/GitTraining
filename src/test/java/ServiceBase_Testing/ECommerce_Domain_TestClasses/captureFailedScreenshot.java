@@ -45,7 +45,7 @@ public class captureFailedScreenshot extends Baseclass
 	{
 		Thread.sleep(1000);
 		
-		fhp.ValidateUser(UtilityClass.fetchdata(1, 2));
+		fhp.ValidateUser(UtilityClass.fetchdata(0, 2));
 	}
 	@AfterMethod
 	public void logout(ITestResult result) throws IOException, InterruptedException

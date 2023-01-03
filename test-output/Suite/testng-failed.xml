@@ -3,16 +3,16 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="ServiceBase_Testing.ECommerce_Domain_TestClasses.Testclass1">
+      <class name="ServiceBase_Testing.ECommerce_Domain_Clarks_TestClasses.TestClassClarks">
         <methods>
           <include name="closeBrowser"/>
-          <include name="userValidation"/>
-          <include name="configureBrowser_Openapplication"/>
-          <include name="login"/>
-          <include name="logout"/>
-          <include name="closingapplication"/>
+          <include name="Vlaidatesortfilterss"/>
+          <include name="Report"/>
+          <include name="Shopping"/>
+          <include name="ValidatedPriceFilterss"/>
+          <include name="ConfigureBrowser_OPenapplication"/>
         </methods>
-      </class> <!-- ServiceBase_Testing.ECommerce_Domain_TestClasses.Testclass1 -->
+      </class> <!-- ServiceBase_Testing.ECommerce_Domain_Clarks_TestClasses.TestClassClarks -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

@@ -12,7 +12,7 @@ public class Baseclass {
 	public void configureBrowser()
 	{
 		//configure browser
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\User\\eclipse new\\ECommerce_Domain\\BrowserDrivers\\chromedriver.exe");   
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\User\\eclipse_new\\ECommerce_Domain\\BrowsersDrivers\\chromedriver.exe");   
 		   //create webdriver object
 		   
 	    driver= new ChromeDriver();

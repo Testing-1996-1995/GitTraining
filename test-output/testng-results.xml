@@ -1,43 +1,180 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="0" failed="0" skipped="2">
   <reporter-output>
-    <line>
-      <![CDATA[closing browser]]>
-    </line>
   </reporter-output>
-  <suite started-at="2022-12-05T10:15:44 IST" name="Suite" finished-at="2022-12-05T10:16:33 IST" duration-ms="48970">
+  <suite started-at="2023-01-02T16:59:02 IST" name="Suite" finished-at="2023-01-02T16:59:19 IST" duration-ms="16212">
     <groups>
     </groups>
-    <test started-at="2022-12-05T10:15:44 IST" name="Test" finished-at="2022-12-05T10:16:33 IST" duration-ms="48970">
-      <class name="ServiceBase_Testing.ECommerce_Domain_TestClasses.Testclass1">
-        <test-method is-config="true" signature="configureBrowser_Openapplication()[pri:0, instance:ServiceBase_Testing.ECommerce_Domain_TestClasses.Testclass1@145f66e3]" started-at="2022-12-05T10:15:44 IST" name="configureBrowser_Openapplication" finished-at="2022-12-05T10:16:17 IST" duration-ms="32875" status="PASS">
+    <test started-at="2023-01-02T16:59:02 IST" name="Test" finished-at="2023-01-02T16:59:19 IST" duration-ms="16212">
+      <class name="ServiceBase_Testing.ECommerce_Domain_Clarks_TestClasses.TestClassClarks">
+        <test-method is-config="true" signature="ConfigureBrowser_OPenapplication()[pri:0, instance:ServiceBase_Testing.ECommerce_Domain_Clarks_TestClasses.TestClassClarks@a514af7]" started-at="2023-01-02T16:59:02 IST" name="ConfigureBrowser_OPenapplication" finished-at="2023-01-02T16:59:19 IST" duration-ms="16062" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- configureBrowser_Openapplication -->
-        <test-method is-config="true" signature="login()[pri:0, instance:ServiceBase_Testing.ECommerce_Domain_TestClasses.Testclass1@145f66e3]" started-at="2022-12-05T10:16:17 IST" name="login" finished-at="2022-12-05T10:16:23 IST" duration-ms="6451" status="PASS">
+        </test-method> <!-- ConfigureBrowser_OPenapplication -->
+        <test-method is-config="true" signature="Shopping()[pri:0, instance:ServiceBase_Testing.ECommerce_Domain_Clarks_TestClasses.TestClassClarks@a514af7]" started-at="2023-01-02T16:59:19 IST" name="Shopping" finished-at="2023-01-02T16:59:19 IST" duration-ms="4" status="FAIL">
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[Driver must be set]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: Driver must be set
+at org.openqa.selenium.internal.Require.nonNull(Require.java:59)
+at org.openqa.selenium.interactions.Actions.<init>(Actions.java:60)
+at ServiceBase_Testing.ECommerce_Domain_Clarks_Page.Clarks_Home_Page.NewArrivals(Clarks_Home_Page.java:22)
+at ServiceBase_Testing.ECommerce_Domain_Clarks_TestClasses.TestClassClarks.Shopping(TestClassClarks.java:36)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- login -->
-        <test-method signature="userValidation()[pri:0, instance:ServiceBase_Testing.ECommerce_Domain_TestClasses.Testclass1@145f66e3]" started-at="2022-12-05T10:16:23 IST" name="userValidation" finished-at="2022-12-05T10:16:29 IST" duration-ms="5436" status="PASS">
+        </test-method> <!-- Shopping -->
+        <test-method signature="ValidatedPriceFilterss()[pri:0, instance:ServiceBase_Testing.ECommerce_Domain_Clarks_TestClasses.TestClassClarks@a514af7]" started-at="2023-01-02T16:59:19 IST" name="ValidatedPriceFilterss" finished-at="2023-01-02T16:59:19 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[Driver must be set]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: Driver must be set
+at org.openqa.selenium.internal.Require.nonNull(Require.java:59)
+at org.openqa.selenium.interactions.Actions.<init>(Actions.java:60)
+at ServiceBase_Testing.ECommerce_Domain_Clarks_Page.Clarks_Home_Page.NewArrivals(Clarks_Home_Page.java:22)
+at ServiceBase_Testing.ECommerce_Domain_Clarks_TestClasses.TestClassClarks.Shopping(TestClassClarks.java:36)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- userValidation -->
-        <test-method is-config="true" signature="logout()[pri:0, instance:ServiceBase_Testing.ECommerce_Domain_TestClasses.Testclass1@145f66e3]" started-at="2022-12-05T10:16:29 IST" name="logout" finished-at="2022-12-05T10:16:32 IST" duration-ms="3621" status="PASS">
+        </test-method> <!-- ValidatedPriceFilterss -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:ServiceBase_Testing.ECommerce_Domain_Clarks_TestClasses.TestClassClarks@a514af7]" started-at="2023-01-02T16:59:19 IST" name="closeBrowser" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1672658959110" status="SKIP">
           <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logout -->
-        <test-method is-config="true" signature="closingapplication()[pri:0, instance:ServiceBase_Testing.ECommerce_Domain_TestClasses.Testclass1@145f66e3]" started-at="2022-12-05T10:16:32 IST" name="closingapplication" finished-at="2022-12-05T10:16:33 IST" duration-ms="442" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closingapplication -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:ServiceBase_Testing.ECommerce_Domain_TestClasses.Testclass1@145f66e3]" started-at="2022-12-05T10:16:33 IST" name="closeBrowser" finished-at="2022-12-05T10:16:33 IST" duration-ms="5" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[closing browser]]>
-            </line>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-      </class> <!-- ServiceBase_Testing.ECommerce_Domain_TestClasses.Testclass1 -->
+        <test-method is-config="true" signature="Shopping()[pri:0, instance:ServiceBase_Testing.ECommerce_Domain_Clarks_TestClasses.TestClassClarks@a514af7]" started-at="2023-01-02T16:59:19 IST" name="Shopping" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1672658959118" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Shopping -->
+        <test-method signature="Vlaidatesortfilterss()[pri:0, instance:ServiceBase_Testing.ECommerce_Domain_Clarks_TestClasses.TestClassClarks@a514af7]" started-at="2023-01-02T16:59:19 IST" name="Vlaidatesortfilterss" finished-at="2023-01-02T16:59:19 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[Driver must be set]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: Driver must be set
+at org.openqa.selenium.internal.Require.nonNull(Require.java:59)
+at org.openqa.selenium.interactions.Actions.<init>(Actions.java:60)
+at ServiceBase_Testing.ECommerce_Domain_Clarks_Page.Clarks_Home_Page.NewArrivals(Clarks_Home_Page.java:22)
+at ServiceBase_Testing.ECommerce_Domain_Clarks_TestClasses.TestClassClarks.Shopping(TestClassClarks.java:36)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Vlaidatesortfilterss -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:ServiceBase_Testing.ECommerce_Domain_Clarks_TestClasses.TestClassClarks@a514af7]" started-at="2023-01-02T16:59:19 IST" name="closeBrowser" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1672658959139" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="Report()[pri:0, instance:ServiceBase_Testing.ECommerce_Domain_Clarks_TestClasses.TestClassClarks@a514af7]" started-at="2023-01-02T16:59:19 IST" name="Report" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1672658959143" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Report -->
+      </class> <!-- ServiceBase_Testing.ECommerce_Domain_Clarks_TestClasses.TestClassClarks -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

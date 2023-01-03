@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Failed suite [Suite]]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)(failed)">
+    <classes>
+      <class name="ServiceBase_Testing.ECommerce_Domain_TestClasses.captureFailedScreenshot">
+        <methods>
+          <include name="closingapplication"/>
+          <include name="configureBrowser_Openapplication"/>
+          <include name="login"/>
+          <include name="logout"/>
+          <include name="closeBrowser"/>
+          <include name="userValidation"/>
+        </methods>
+      </class> <!-- ServiceBase_Testing.ECommerce_Domain_TestClasses.captureFailedScreenshot -->
+    </classes>
+  </test> <!-- Test(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Suite]] -->
