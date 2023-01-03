@@ -53,6 +53,7 @@ public class TestClassClarks extends BaseClassClarks
 	{
 		// we vlidate price filter under 2000 rs
 		cmp.validatePriceRenge();
+		Reporter.log("Validating the Price", true);
 	}
 	
 	@AfterMethod
