@@ -26,7 +26,7 @@ public class Testclass1 extends Baseclass
 	{	
 		
 		fhp.ClickOnClose();
-		Thread.sleep(1000);
+		Thread.sleep(2000);
 		fhp.ClickOnLogin();
 		Thread.sleep(1000);
 		
@@ -34,7 +34,7 @@ public class Testclass1 extends Baseclass
 		
 		flp.enterMobile(UtilityClass.fetchdata(1, 0));
 		flp.enterPassword(UtilityClass.fetchdata(1, 1));
-		UtilityClass.ScreenShot(driver, "EnteredValues");
+		UtilityClass.ScreenShot(driver, "EnteredthevalidData");
 		flp.ClicksLogin();
 	}
 	@Test
